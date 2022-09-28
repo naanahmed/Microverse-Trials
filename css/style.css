@@ -1,3 +1,6 @@
 .graybackground{
-  background-color: rgb(234, 229, 229)
+  background-color: rgb(234, 229, 229);
+}
+#main-doc{
+  line-height: 150%;
 }
