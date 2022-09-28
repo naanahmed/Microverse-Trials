@@ -4,3 +4,13 @@
 #main-doc{
   line-height: 150%;
 }
+@media screen and (max-width: 600px){
+  body{
+    width: 70%;
+  }
+}
+@media print{ 
+  body{
+    background-color: blue;
+  }
+} 
