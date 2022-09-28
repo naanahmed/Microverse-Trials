@@ -7,20 +7,21 @@
   </head>
 
   <body>
-    <aside>
-    <nav id="navbar">
-      <header id="JS_Documentation">JS Documentation</header>
-      <a href="#Introduction" class="nav-link">Introduction</a>
-      <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
-      <a href="#JavaScript_&_Java" class="nav-link">JavaScript & Java</a>
-      <a href="#Hello_world"class="nav-link">Hello world</a>
-      <a href="#variables" class="nav-link">variables</a>
-      <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
-      <a href="#Variable_scope" class="nav-link">Variable scope</a>
-      <a href="#Global_variables" class="nav-link">Global variables</a>
-    </nav>
-  </aside>
-    <main id="main-doc">
+    <div id="aside1">
+      <nav id="navbar">
+        <header id="JS_Documentation"><h1>JS Documentation</h1>></header>
+          <a href="#Introduction" class="nav-link"><h1>Introduction</h1><br></a>
+          <a href="#What_you_should_already_know" class="nav-link"><h1>What you should already know</h1><br></a>
+          <a href="#JavaScript_&_Java" class="nav-link"><h1>JavaScript & Java</h1><br></a>
+          <a href="#Hello_world"class="nav-link"><h1>Hello world</h1><br></a>
+          <a href="#variables" class="nav-link"><h1>variables</h1><br></a>
+          <a href="#Declaring_variables" class="nav-link"><h1>Declaring variables</h1><br></a>
+          <a href="#Variable_scope" class="nav-link"><h1>Variable scope</h1><br></a>
+          <a href="#Global_variables" class="nav-link"><h1>Global variables</h1><br></a>
+      </nav>
+    </div>
+    <div>
+      <main id="main-doc">
       <section id="Introduction" class="main-section">
         <header ><h1>Introduction</h1></header>
         <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
@@ -130,7 +131,7 @@
           JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.<br>
           <code class="graybackground">
             if (true) { var x = 5; } console.log(x); // 5
-          </div>
+          </code>
           This behavior changes, when using the let declaration introduced in ECMAScript 2015<br>
           <code class="graybackground">
             if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined
@@ -138,6 +139,8 @@
         </p>
 
       </section>
+    </div>
+
     </main>
 
 
